@@ -1,0 +1,37 @@
+.navLeftFooter {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background-color: #232f3e;
+  min-width: 1000px;
+  position: relative;
+}
+
+.navFooterBackToTop {
+  margin-bottom: 40px;
+  background-color: #37475a;
+
+  span {
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+    line-height: 19px;
+    font-size: 13px;
+  }
+}
+
+.navAccessibility.navFooterVerticalColumn {
+  display: table;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+#navFooter .navAccessibility.navFooterVerticalRow {
+  display: table-row;
+}
+
+#navFooter .navAccessibility.navFooterColSpacerInner,
+#navFooter .navAccessibility.navFooterLinkCol {
+  display: table-cell;
+  padding: 0 10px;
+}

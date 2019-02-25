@@ -1,0 +1,72 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 !important;
+  background-color: #eaeded;
+}
+
+#gw-layout {
+  position: relative;
+  padding: 0 10px;
+}
+#gw-card-layout {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+  max-height: 460px;
+
+  div {
+    flex-basis: 33.3333%;
+    min-width: 33.3%;
+  }
+}
+#gw-card-layout > .gw-col {
+  max-width: 400px;
+  padding: 0 10px;
+  height: 420px;
+  min-height: 420px;
+}
+
+.gw-card-layout .a-cardui {
+  background: #fff;
+  height: 100%;
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 0;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+.a-cardui {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  overflow: auto;
+  padding: 20px 0 15px 0;
+}
+
+.gw-card-layout .a-cardui .a-cardui-body {
+  padding: 0 20px 56px 20px;
+  margin-bottom: 0;
+}
+
+.gw-card-layout .a-cardui .a-cardui-footer {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.a-image-container.a-dynamic-image-container img {
+  width: 100%;
+}
+
+.fresh-shoveler .feed-carousel .feed-carousel-card {
+  display: inline-block;
+}
