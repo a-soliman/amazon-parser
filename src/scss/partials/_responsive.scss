@@ -5,6 +5,10 @@
   #nav-gwbar {
     display: none;
   }
+
+  #nav-subnav-container {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -39,7 +43,8 @@
     }
     #nav-gwbar,
     #nav-subnav-container {
-      display: block;
+      display: flex;
+      position: relative;
     }
     #nav-gwbar {
       a {
@@ -54,6 +59,24 @@
         display: unset;
       }
     }
+  }
+
+  #pageContent {
+    min-width: 100%;
+    overflow: hidden;
+  }
+  div.a-declarative#nav-global-location-slot {
+    display: flex !important;
+    align-items: center;
+    padding-top: 0;
+  }
+  .nav-packard-glow #nav-global-location-slot #nav-packard-glow-loc-icon {
+    position: static !important;
+    display: block;
+  }
+  #navFooter {
+    min-width: 100% !important;
+    overflow: hidden;
   }
 }
 
