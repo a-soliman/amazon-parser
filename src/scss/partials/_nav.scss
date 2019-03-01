@@ -1,4 +1,31 @@
 #navbar .nav-sprite {
-    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global_bluebeacon-V3-2x_optimized._CB474516457_.png);
-    background-size: 350px;
+  background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global_bluebeacon-V3-2x_optimized._CB474516457_.png);
+  background-size: 350px;
+}
+
+#navbar {
+  margin: 0;
+}
+
+#nav-gwbar {
+  height: 45px;
+  display: flex;
+  overflow-x: scroll;
+  padding-top: 12px;
+  background: #232f3e;
+  border-bottom: 0;
+  width: 100%;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  line-height: 1em;
+
+  a {
+    margin: 8px 0 20px 15px;
+    padding-right: 3px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    color: #fff;
+    line-height: 15px;
+    font-size: 15px;
+    font-weight: 400;
+  }
 }

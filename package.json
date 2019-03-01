@@ -28,6 +28,7 @@
     "static-server": "^2.2.1"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "bootstrap": "^4.0.0-beta",
     "browserify": "^16.2.3",
     "cheerio": "^1.0.0-rc.2",
